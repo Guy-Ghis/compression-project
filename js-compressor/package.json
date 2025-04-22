@@ -1,6 +1,7 @@
 {
   "name": "js-compressor",
   "version": "1.0.0",
+  "bin": "index.js",
   "description": "JavaScript implementation of RLE and LZ77 compression algorithms",
   "main": "index.js",
   "scripts": {

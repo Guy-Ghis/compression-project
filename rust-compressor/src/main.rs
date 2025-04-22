@@ -1,6 +1,5 @@
 use clap::Parser;
 use std::fs;
-use std::path::Path;
 
 mod lz;
 mod rle;

@@ -1,7 +1,8 @@
 # Compression CLI Tool
 
-A command-line tool for file compression using Run-Length Encoding (RLE) and LZ77 algorithms, implemented in both Rust and JavaScript.
+A command-line tool for file compression and decompression using Run-Length Encoding (RLE) and LZ77 algorithms, implemented in both Rust and JavaScript.
 
+---
 ## Features
 
 - Two compression algorithms:
@@ -11,6 +12,7 @@ A command-line tool for file compression using Run-Length Encoding (RLE) and LZ7
 - Docker support
 - GitHub Container Registry (GHCR) integration
 
+---
 ## Installation
 
 ### Using Docker
@@ -39,6 +41,7 @@ cd js-compressor
 npm install -g .
 ```
 
+---
 ## Usage
 
 ### Rust Implementation
@@ -82,7 +85,7 @@ docker run -v $(pwd):/data ghcr.io/your-org-name/rust-compressor compress /data/
 # Decompress using JavaScript implementation
 docker run -v $(pwd):/data ghcr.io/your-org-name/js-compressor decompress /data/input.txt.cmp /data/output.txt --algorithm lz
 ```
-
+---
 ## Development
 
 ### Running Tests
@@ -110,7 +113,7 @@ docker build -t rust-compressor ./rust-compressor
 # Build JavaScript implementation
 docker build -t js-compressor ./js-compressor
 ```
-
+---
 ## License
 
 This repository is licensed under the MIT License. See the LICENSE file for more information.

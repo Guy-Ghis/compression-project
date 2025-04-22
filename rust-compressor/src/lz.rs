@@ -20,6 +20,7 @@ pub fn compress(data: &[u8]) -> Vec<u8> {
             let mut match_len = 0;
             while i + match_len < data.len()
                 && match_len < 255
+                && (window.len() - offset + match_len) < window.len()
                 && window[window.len() - offset + match_len] == data[i + match_len]
             {
                 match_len += 1;
