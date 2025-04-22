@@ -19,10 +19,10 @@ A command-line tool for file compression and decompression using Run-Length Enco
 
 ```bash
 # Pull the Rust implementation
-docker pull ghcr.io/your-org-name/rust-compressor:latest
+docker pull ghcr.io/Guy-Ghis/rust-compressor:latest
 
 # Pull the JavaScript implementation
-docker pull ghcr.io/your-org-name/js-compressor:latest
+docker pull ghcr.io/Guy-Ghis/js-compressor:latest
 ```
 
 ### Local Installation
