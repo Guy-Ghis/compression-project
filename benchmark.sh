@@ -181,4 +181,8 @@ EOF
 
 log "Markdown report generated: $REPORT_FILE"
 
+<<<<<<< HEAD
 log "Benchmark script finished." 
+=======
+log "Benchmark script finished." 
+>>>>>>> 034d9e4698f86e85887992bc9b9bf8e21be72d86
