@@ -1,0 +1,36 @@
+# Ignore node_modules
+node_modules/
+
+# Ignore build artifacts
+dist/
+*.log
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore environment/config files
+.env
+# Ignore coverage reports
+coverage/
+# Ignore IDE files
+.idea/
+.vscode/
+
+# Ignore temporary files
+*.tmp
+*.temp
+
+# Ignore target files
+*.target
+
+# Ignore sample files
+sample.txt
+
+# Ignore large benchmark files
+benchmark_results/*.rle
+benchmark_results/*.compressed.rle
+benchmark_results/*.decompressed.rle
+benchmark_results/*.lz
+benchmark_results/*.compressed.rle
+benchmark_results/*.decompressed.lzbenchmark_results/*.rle
