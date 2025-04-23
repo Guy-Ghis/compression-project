@@ -28,13 +28,5 @@ coverage/
 sample.txt
 # Ignore large benchmark files
 benchmark_results/*.rle
-benchmark_results/*.md
-benchmark_results/*.compressed.rle
-benchmark_results/*.decompressed.rle
 benchmark_results/*.lz
-benchmark_results/*.compressed.rle
-<<<<<<< HEAD
-benchmark_results/*.decompressed.lzbenchmark_results/*.rle
-=======
-benchmark_results/*.decompressed.lzbenchmark_results/*.rle
->>>>>>> fe10524d76cd345c6a816e9676e58a40b504d890
+
