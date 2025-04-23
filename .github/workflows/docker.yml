@@ -30,7 +30,7 @@ jobs:
           context: ./js-compressor
           file: ./js-compressor/Dockerfile
           push: ${{ github.event_name == 'push' }}
-          tags: ghcr.io/Guy-Ghis/js-compressor:latest
+          tags: ghcr.io/guy-ghis/js-compressor:latest
 
   build-and-push-rs_image:
     runs-on: ubuntu-latest
@@ -57,4 +57,4 @@ jobs:
           context: ./rust-compressor
           file: ./rust-compressor/Dockerfile
           push: ${{ github.event_name == 'push' }}
-          tags: ghcr.io/Guy-Ghis/rust-compressor:latest 
+          tags: ghcr.io/guy-ghis/rust-compressor:latest 
